@@ -102,4 +102,10 @@ class AddNewStudentViewController: UIViewController {
         print("Student Deleted")
     }
 
+    @IBAction func btnLogout(_ sender: UIBarButtonItem) {
+        try! Auth.auth().signOut()
+        if let storyboard = self.storyboard {
+            let vc = storyboard.instantiateViewController(withIdentifier: "SignInViewController");           self.present(vc, animated: false, completion: nil)
+        }
+    }
 }

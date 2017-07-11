@@ -9,7 +9,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="7vy-Wl-NHV">
             <objects>
-                <viewController id="MJe-9b-FWE" customClass="SignInViewController" customModule="EducationiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="MJe-9b-FWE" customClass="SignInViewController" customModule="EducationiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rz3-GX-tUW"/>
                         <viewControllerLayoutGuide type="bottom" id="1T8-Fe-iiK"/>
@@ -142,13 +142,33 @@
                                     <action selector="btnInsert:" destination="kyw-M0-F4g" eventType="touchUpInside" id="BeL-r2-i6X"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="24w-mK-5VR">
+                                <frame key="frameInset" minY="7" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Student" id="7gf-zz-EnW">
+                                        <barButtonItem key="rightBarButtonItem" title="Sign out" id="nnr-aX-Lez">
+                                            <connections>
+                                                <action selector="btnLogout:" destination="kyw-M0-F4g" id="mjb-KO-9j7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eip-Qs-cRY">
+                        <barButtonItem key="rightBarButtonItem" title="Sign Off" id="e5S-Uz-Fl9">
+                            <connections>
+                                <action selector="btnLogout:" destination="kyw-M0-F4g" id="tld-E2-IWF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PTd-It-OiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892" y="131"/>
+            <point key="canvasLocation" x="1831.2" y="130.88455772113943"/>
         </scene>
     </scenes>
 </document>
