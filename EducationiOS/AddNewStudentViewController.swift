@@ -15,13 +15,13 @@ class AddNewStudentViewController: UIViewController {
    var refStudent: DatabaseReference!
     override func viewDidLoad() {
         super.viewDidLoad()
-        FirebaseApp.configure()
+        //FirebaseApp.configure()
         //getting a reference to the node artists
         refStudent = Database.database().reference().child("students");
 
         // Do any additional setup after loading the view.
         //updateStudent()
-        deleteStudent(id: "-KomaHnqStBFhCgAE9i1")
+        //deleteStudent(id: "-KomaHnqStBFhCgAE9i1")
         getStudentRecords()
         
     }

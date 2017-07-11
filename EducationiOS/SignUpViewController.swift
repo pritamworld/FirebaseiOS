@@ -19,7 +19,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var labelMessage: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        FirebaseApp.configure()
+        //FirebaseApp.configure()
         labelMessage.text = ""
     }
 

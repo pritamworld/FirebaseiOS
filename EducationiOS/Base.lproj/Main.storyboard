@@ -40,9 +40,25 @@
                                     <action selector="loginAction:" destination="MJe-9b-FWE" eventType="touchUpInside" id="qzY-8M-Yg9"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cE4-Aq-ivF">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Login" id="r7G-lF-FJ3">
+                                        <barButtonItem key="rightBarButtonItem" title="SignUp" id="JP0-Cj-x14">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="vs0-Hn-Zqd"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="emailTextField" destination="cAu-nR-YZS" id="xXV-d1-mo9"/>
                         <outlet property="passwordTextField" destination="6RA-Uu-iCV" id="6WR-dj-lS5"/>
@@ -109,12 +125,12 @@
         <!--Add New Student View Controller-->
         <scene sceneID="GfY-5H-hsk">
             <objects>
-                <viewController id="kyw-M0-F4g" customClass="AddNewStudentViewController" customModule="EducationiOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddNewStudent" id="kyw-M0-F4g" customClass="AddNewStudentViewController" customModule="EducationiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vqw-6U-r3C"/>
                         <viewControllerLayoutGuide type="bottom" id="GZn-q1-SW5"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="AddNewStudent" id="Xyp-tY-qcu">
+                    <view key="view" contentMode="scaleToFill" id="Xyp-tY-qcu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

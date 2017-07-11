@@ -46,7 +46,7 @@ class SignInViewController: UIViewController {
                     //Print into the console if successfully logged in
                     print("You have successfully logged in")
                     
-                    //Go to the HomeViewController if the login is sucessful
+                    //Go to the Next View Controller if the login is sucessful
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "AddNewStudent")
                     self.present(vc!, animated: true, completion: nil)
                     
