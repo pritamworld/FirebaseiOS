@@ -10,4 +10,5 @@ target 'EducationiOS' do
     pod 'Firebase/Database'
     pod 'ChameleonFramework/Swift', '~> 2.1.0'
     pod 'Eureka'
+    pod 'BarcodeScanner'
 end

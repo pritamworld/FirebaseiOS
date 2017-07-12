@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BarcodeScanner-BarcodeScanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BarcodeScanner.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ChameleonFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +47,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>544F521C61AA22D6B30342DE27BC7435</key>
+		<key>2D0E1FF1272770259C68078F549263EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +63,16 @@
 			<true/>
 		</dict>
 		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C78450B837602958EB39D54DB0BB8652</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFAAB8230EA40F1F8FE61671783A5DEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
