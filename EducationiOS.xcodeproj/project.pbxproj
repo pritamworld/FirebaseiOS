@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28441BC41F152CB400080DDC /* AddNewStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28441BC31F152CB400080DDC /* AddNewStudentViewController.swift */; };
 		28441BC61F153E5300080DDC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28441BC51F153E5300080DDC /* SignInViewController.swift */; };
+		28B31D621F166B17000B4CC8 /* EurekaFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B31D611F166B17000B4CC8 /* EurekaFormViewController.swift */; };
 		28FCF13E1F15210700305F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCF13D1F15210700305F2E /* AppDelegate.swift */; };
 		28FCF1401F15210700305F2E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCF13F1F15210700305F2E /* SignUpViewController.swift */; };
 		28FCF1431F15210700305F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FCF1411F15210700305F2E /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		28441BC31F152CB400080DDC /* AddNewStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewStudentViewController.swift; sourceTree = "<group>"; };
 		28441BC51F153E5300080DDC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		28B31D611F166B17000B4CC8 /* EurekaFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EurekaFormViewController.swift; sourceTree = "<group>"; };
 		28FCF13A1F15210700305F2E /* EducationiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FCF13D1F15210700305F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FCF13F1F15210700305F2E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				28FCF1441F15210700305F2E /* Assets.xcassets */,
 				28FCF1461F15210700305F2E /* LaunchScreen.storyboard */,
 				28FCF1491F15210700305F2E /* Info.plist */,
+				28B31D611F166B17000B4CC8 /* EurekaFormViewController.swift */,
 			);
 			path = EducationiOS;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B31D621F166B17000B4CC8 /* EurekaFormViewController.swift in Sources */,
 				28441BC61F153E5300080DDC /* SignInViewController.swift in Sources */,
 				28FCF1401F15210700305F2E /* SignUpViewController.swift in Sources */,
 				28FCF13E1F15210700305F2E /* AppDelegate.swift in Sources */,

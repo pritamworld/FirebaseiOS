@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import ChameleonFramework
 
 class SignUpViewController: UIViewController {
 
@@ -19,6 +20,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var labelMessage: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.randomFlat()
         //FirebaseApp.configure()
         labelMessage.text = ""
     }

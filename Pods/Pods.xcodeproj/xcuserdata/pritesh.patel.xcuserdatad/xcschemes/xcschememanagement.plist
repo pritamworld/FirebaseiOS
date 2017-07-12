@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ChameleonFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Eureka.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +37,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>336874CE5C96F47AB4842AE2BBE28E5A</key>
+		<key>544F521C61AA22D6B30342DE27BC7435</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>675A114988AE198732ED4AD726408964</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76BD4592010354D6C23D6ECCA20D83A8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

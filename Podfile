@@ -8,4 +8,6 @@ target 'EducationiOS' do
   # Pods for EducationiOS
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
+    pod 'ChameleonFramework/Swift', '~> 2.1.0'
+    pod 'Eureka'
 end

@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import ChameleonFramework
 
 class SignInViewController: UIViewController {
 
@@ -15,7 +16,7 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.flatGreenColorDark()
         // Do any additional setup after loading the view.
     }
 

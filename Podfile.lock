@@ -1,4 +1,8 @@
 PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Eureka (3.0.0)
   - Firebase/Auth (4.0.3):
     - Firebase/Core
     - FirebaseAuth (= 4.0.0)
@@ -35,10 +39,14 @@ PODS:
   - GTMSessionFetcher/Core (1.1.11)
 
 DEPENDENCIES:
+  - ChameleonFramework/Swift (~> 2.1.0)
+  - Eureka
   - Firebase/Auth
   - Firebase/Database
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
   Firebase: 9e33fdfbca37cab635c693883caa90a4475b842b
   FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
   FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
@@ -48,6 +56,6 @@ SPEC CHECKSUMS:
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
   GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
 
-PODFILE CHECKSUM: f34d7477a4b4d304b53a284d9e924f2c62fab29e
+PODFILE CHECKSUM: b9923594d989ad17437392bf02b8d4c3460aaccf
 
 COCOAPODS: 1.2.1
