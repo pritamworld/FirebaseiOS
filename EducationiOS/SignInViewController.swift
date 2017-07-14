@@ -9,15 +9,25 @@
 import UIKit
 import Firebase
 import ChameleonFramework
+import SwiftyAvatar
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var avatarImage: UIImageView!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.flatGreenColorDark()
         // Do any additional setup after loading the view.
+        
+        
+        //With default initializer
+        //let avatar = SwiftyAvatar
+        //avatarImage.image = UIImage(named:"lionroar_jup")
+        //With your values
+        //let avatar = SwiftyAvatar(size: 50, roundess: 2, borderWidth: 1, borderColor: UIColor.orange, background: UIColor.black)
+        //avatarImage.image = UIImage(named: "lionroar_jup")
     }
 
     override func didReceiveMemoryWarning() {

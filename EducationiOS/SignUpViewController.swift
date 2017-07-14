@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import ChameleonFramework
+import AASignatureView
 
 class SignUpViewController: UIViewController {
 

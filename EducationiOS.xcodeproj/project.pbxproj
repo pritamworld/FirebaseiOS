@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28441BC41F152CB400080DDC /* AddNewStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28441BC31F152CB400080DDC /* AddNewStudentViewController.swift */; };
 		28441BC61F153E5300080DDC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28441BC51F153E5300080DDC /* SignInViewController.swift */; };
+		28A801BA1F19330A00C56071 /* lionroar_jup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28A801B91F19330A00C56071 /* lionroar_jup.jpg */; };
 		28B31D621F166B17000B4CC8 /* EurekaFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B31D611F166B17000B4CC8 /* EurekaFormViewController.swift */; };
 		28B31D641F169C27000B4CC8 /* BarcodeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B31D631F169C27000B4CC8 /* BarcodeScanViewController.swift */; };
 		28FCF13E1F15210700305F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FCF13D1F15210700305F2E /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		28441BC31F152CB400080DDC /* AddNewStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewStudentViewController.swift; sourceTree = "<group>"; };
 		28441BC51F153E5300080DDC /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		28A801B91F19330A00C56071 /* lionroar_jup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lionroar_jup.jpg; sourceTree = "<group>"; };
 		28B31D611F166B17000B4CC8 /* EurekaFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EurekaFormViewController.swift; sourceTree = "<group>"; };
 		28B31D631F169C27000B4CC8 /* BarcodeScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScanViewController.swift; sourceTree = "<group>"; };
 		28FCF13A1F15210700305F2E /* EducationiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		28A801B81F1932B800C56071 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				28A801B91F19330A00C56071 /* lionroar_jup.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		28FCF1311F15210700305F2E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		28FCF13C1F15210700305F2E /* EducationiOS */ = {
 			isa = PBXGroup;
 			children = (
+				28A801B81F1932B800C56071 /* images */,
 				28FCF14F1F15216F00305F2E /* GoogleService-Info.plist */,
 				28FCF13D1F15210700305F2E /* AppDelegate.swift */,
 				28FCF13F1F15210700305F2E /* SignUpViewController.swift */,
@@ -168,6 +179,7 @@
 				28FCF1481F15210700305F2E /* LaunchScreen.storyboard in Resources */,
 				28FCF1501F15216F00305F2E /* GoogleService-Info.plist in Resources */,
 				28FCF1451F15210700305F2E /* Assets.xcassets in Resources */,
+				28A801BA1F19330A00C56071 /* lionroar_jup.jpg in Resources */,
 				28FCF1431F15210700305F2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

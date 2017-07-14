@@ -11,4 +11,6 @@ target 'EducationiOS' do
     pod 'ChameleonFramework/Swift', '~> 2.1.0'
     pod 'Eureka'
     pod 'BarcodeScanner'
+    pod 'AASignatureView'
+    pod 'SwiftyAvatar', '~> 1.1'
 end
