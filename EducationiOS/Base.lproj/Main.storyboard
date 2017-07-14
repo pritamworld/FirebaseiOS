@@ -88,7 +88,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="avtarImage" destination="nc9-jg-Hh4" id="77e-Oj-39P"/>
+                        <outlet property="avatarImage" destination="nc9-jg-Hh4" id="euY-JT-O6K"/>
                         <outlet property="emailTextField" destination="cAu-nR-YZS" id="xXV-d1-mo9"/>
                         <outlet property="passwordTextField" destination="6RA-Uu-iCV" id="6WR-dj-lS5"/>
                     </connections>
